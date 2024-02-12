@@ -1,5 +1,9 @@
 # Part 1
 
+- [x] Create a micro instance with SUSE 64 bit Linux stack with appropriate keys and access control.
+![](./asset/00027-hw1.png)
+- [x] SSH into the instance you created.
+![](./asset/00028-hw1.png)
 
 # Part 2
 ## Prerequisites
