@@ -1,0 +1,1 @@
+The service principal should have **Contributor** and **User Access Administrator** access.

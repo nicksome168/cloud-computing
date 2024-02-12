@@ -1,5 +1,6 @@
 variable "resource_group_location" {}
 variable "rg_name" {}
+variable "db_name" {}
 variable "db_admin" {}
 variable "db_admin_pwd" {}
 
@@ -9,7 +10,7 @@ resource "azurerm_resource_group" "rg" {
 }
 
 resource "azurerm_postgresql_server" "db" {
-  name                = "nyu-cc-hw1-db"
+  name                = var.db_name
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
 
