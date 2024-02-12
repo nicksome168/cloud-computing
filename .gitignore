@@ -75,6 +75,7 @@ terraform.rc
 
 */**/*.docx
 */**/*.doc
+*/**/*.pages
 */**/*.out
 */**/.env
 .env
