@@ -81,3 +81,5 @@ terraform.rc
 .env
 
 .DS_Store
+
+assignments/hw2/part1/notebooks/*
